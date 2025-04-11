@@ -1,0 +1,22 @@
+{
+  "name": "group_6-customer-service",
+  "version": "1.0.0",
+  "description": " The assistance and support a company provides to its customers before, during, and after the purchase of a product or the use of a service.",
+  "main": "Start_file.js",
+  "scripts": {
+    "test": "Verify that the customer support system provides  assistance"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeudaba/Group_6-Customer-service.git"
+  },
+  "author": "Yeuda Baza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeudaba/Group_6-Customer-service/issues"
+  },
+  "homepage": "https://github.com/yeudaba/Group_6-Customer-service#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
