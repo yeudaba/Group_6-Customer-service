@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": " The assistance and support a company provides to its customers before, during, and after the purchase of a product or the use of a service.",
   "main": "Start_file.js",
+  "type": "module",
+
   "scripts": {
     "test": "mocha tests/**/*.js",
     "start": "npm src/index.js"
