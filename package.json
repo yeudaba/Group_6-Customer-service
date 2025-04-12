@@ -4,7 +4,8 @@
   "description": " The assistance and support a company provides to its customers before, during, and after the purchase of a product or the use of a service.",
   "main": "Start_file.js",
   "scripts": {
-    "test": "Verify that the customer support system provides  assistance"
+    "test": "mocha tests/**/*.js",
+    "start": "npm src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "homepage": "https://github.com/yeudaba/Group_6-Customer-service#readme",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "chai": "^5.2.0",
+    "mocha": "^10.0.0"
   }
 }
