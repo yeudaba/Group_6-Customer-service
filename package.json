@@ -7,7 +7,7 @@
 
   "scripts": {
     "test": "mocha tests/**/*.js",
-    "start": "npm src/index.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
